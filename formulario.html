@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" href="css/bootstrap.min (2).css" />
+    <script rel="stylesheet" href="js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <div id="container">
+        <img id="sol" src="images/sun.png" alt="sunshine" />
+
+        <div id="main">
+            <!--Cabecera-->
+            <header>
+                <img class="logo" src="images/logo.png" alt="logo" />
+            </header>
+
+            <!--Navegacion-->
+            <nav>
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="principal" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="principal" href="conciencia.html">Conciencia</a></li>
+                    <li class="nav-item"><a class="principal" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item"><a class="principal" href="galeria.html">Galería</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="principal" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" data-hover="dropdown">Adoptar</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="zaguateP.html">Zaguates pequeños</a></li>
+                            <li><a class="dropdown-item" href="zaguateM.html">Zaguates medianos</a></li>
+                            <li><a class="dropdown-item" href="zaguateG.html">Zaguates grandes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"> <a class="principal last" href="acercaDe.html">Acerca de nosotros</a></li>
+
+                </ul>
+
+
+
+            </nav>
+
+
+
+            <main>
+
+                <article>
+
+                    <form class="row g-3">
+
+                        <div class="row g-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellidos">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="inputAddress" >
+                        </div>
+                        <!--<div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>-->
+                        <!--<div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>-->
+                        <div class="col-12">
+                            <button id="iniciarSesion" type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+
+
+                </article>
+            </main>
+
+            <!--Pie de Página-->
+            <footer>
+                <a class="link" href="index.html">Home</a>
+                <a class="link" href="conciencia.html">Conciencia</a>
+                <a class="link" href="noticias.html">Noticias</a>
+                <a class="link" href="galeria.html">Galería</a>
+                <a class="link" href="#">Adoptar</a>
+                <a class="link last" href="acercaDe.html">Acerca de nosotros</a>
+                <p>CopyRight ©<a class="link last" href="#">Zaguate World</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <div></div>
+
+</body>
+</html>
